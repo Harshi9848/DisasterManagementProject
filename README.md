@@ -69,7 +69,7 @@ The performance of the models is evaluated on a test dataset. The following resu
   - Recall: (example result) 88%
   - Precision: (example result) 92%
 
--**For the XGBoost Classifier**:
+- **For the XGBoost Classifier**:
   - Accuracy: 91% (example result)
   - Precision: 89% (example result)
   - Recall: 90% (example result)
@@ -83,15 +83,6 @@ The XGBoost Classifier demonstrates a robust ability to handle imbalanced classe
 Various visualizations are generated to illustrate the trends in the data and the performance of the models, such as:
 - **Feature Importance**: To identify which features most significantly affect predictions.
 - **Model Performance Metrics**: Visual representations of the MAE, MSE, and classification metrics.
-
----
-
-## **Challenges and Limitations**
-
-While the models performed reasonably well, there are several challenges and limitations in the project:
-1. **Data Quality**: The dataset may have missing or inconsistent data that could affect model performance.
-2. **Feature Engineering**: More sophisticated feature engineering techniques could improve model accuracy.
-3. **Model Complexity**: The Random Forest models are fairly basic; exploring more complex models like neural networks or boosting algorithms (e.g., XGBoost) could yield better results.
 
 ---
 
